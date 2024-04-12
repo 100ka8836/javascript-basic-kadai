@@ -1,7 +1,9 @@
 //体重
-const weight = 68;
+let weight = 68;
 //身長
-const height = 1.7;
+let height = 1.7;
+//BMI
+const BMI = (weight / (height * height));
 
-//BMI計算式
-console.log(weight / (height * height))
+//BMI計算式s
+console.log(BMI);
