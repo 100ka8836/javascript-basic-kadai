@@ -1,5 +1,5 @@
 const countreply = (count) => {
-    console.log(count * 10);
+    return count * 10
 }
 
-countreply(10);
+console.log(countreply(10));
